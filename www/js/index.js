@@ -22,7 +22,7 @@ function updateDisplay() {
 	launched_count++;      //add one to count for number of times application has been launched
 	updateDisplay();       //run update display function
 	    
-	alert("device ready");     //pop up alert saying device ready
+	console.log("device ready");     //pop up console.log saying device ready
     }
 
 
@@ -31,7 +31,7 @@ function updateDisplay() {
 	paused_count++;            //add one to count for number of times application has been paused
 	updateDisplay();           //run update display function
 	    
-	alert("pause");            //pop up alert saying device ready
+	console.log("pause");            //pop up console.log saying device ready
     }
 	
 
@@ -40,5 +40,5 @@ function updateDisplay() {
 	resumed_count++;           //add one to count for number of times application has been resumed
 	updateDisplay();           //run update display function
 	    
-	alert("resume");           //pop up alert saying device ready
+	console.log("resume");           //pop up console.log saying device ready
     }
