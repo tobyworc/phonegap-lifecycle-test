@@ -6,9 +6,9 @@ document.addEventListener("deviceready", onDeviceReady, false); //creates event 
 		
 	
 function updateDisplay() {
-	$("#launched").text("Application launched: " + launched_count);    //displayed count for number of times application is launched
-	$("#resumed").text("Application paused: " + paused_count);         //displayed count for number of times application is paused
-	$("#paused").text("Application resumed: " + resumed_count);        //displayed count for number of times application is resumed
+	$("#launched").text("Application launched: " + launched_count);    //displayed count for number of times application is launched using jquery
+	$("#resumed").text("Application paused: " + paused_count);         //displayed count for number of times application is paused using jquery
+	$("#paused").text("Application resumed: " + resumed_count);        //displayed count for number of times application is resumed using jquery
 }
 
 
